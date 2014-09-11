@@ -149,7 +149,7 @@ class HSLColorWheel {
       $hue = 0;
       $saturation = 0;
 
-      // If is a color, has chroma
+    // If is a color, has chroma
     } else {
       if ($lightness < 0.5) {
         $saturation = $delta_max / ($max_color + $min_color);
@@ -232,7 +232,7 @@ class HSLColorWheel {
   }
 
 
-} // End of Color Wheel Class
+}
 
 
 
